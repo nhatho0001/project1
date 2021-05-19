@@ -5,5 +5,6 @@ int main()
 #pragma warning(suppress : 4996)
 	tm* ht = localtime(&now);
 	cout <<  ht->tm_mday << "/" << ht->tm_mon + 1 << "/" << ht->tm_year + 1900 << endl;
+	cout << "hello world " << endl;
 	return 0; 
 }
